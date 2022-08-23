@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">SellerApp489</string>
+
+    <string-array name="division_array">
+        <item>Select Division</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Barisal</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+    <!--    Stock-->
+    <string-array name="stock_array">
+        <item>Select Stock</item>
+        <item>In Stock</item>
+        <item>Out Of Stock</item>
+        <item>Coming Soon</item>
+    </string-array>
+
+    <string-array name="area_dhaka_array">
+        <item>Select Area</item>
+        <item>mirpur</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Select Category</item>
+        <!--        <item>Clothing</item>-->
+        <!--        <item>Electronics</item>-->
+        <!--        <item>FMCG</item>-->
+        <!--        <item>Footwear</item>-->
+        <!--        <item>Hardware &amp; Tools</item>-->
+        <!--        <item>Home &amp; Kitchen</item>-->
+        <!--        <item>Medicines</item>-->
+        <!--        <item>Mobile &amp; Accessories</item>-->
+
+        <!--1-->
+        <item>Apparel</item>
+        <!--2-->
+        <item>Bags &amp; Shoes</item>
+        <!--3-->
+        <item>Electronics</item>
+        <!--4-->
+        <item>Mobile Accessories</item>
+        <!--5-->
+        <item>Industrial Supplies &amp; Tools</item>
+        <!--6-->
+        <item>Electrical Equipment</item>
+        <!--7-->
+        <item>Auto &amp; Transportation</item>
+        <!--8-->
+        <item>Gifts, Sports &amp; Toys</item>
+        <!--9-->
+        <item>Health &amp; Beauty</item>
+        <!--10-->
+        <item>Home &amp; Construction</item>
+        <!--11-->
+        <item>Lights</item>
+        <!--12-->
+        <item>Chemicals, Rubber &amp; Plastics</item>
+        <!--13-->
+        <item>Packaging &amp; Office</item>
+        <!--14-->
+        <item>Medicines</item>
+        <!--15-->
+        <item>FMCG</item>
+
+    </string-array>
+
+    <!--    Sub Category Array-->
+
+    <!--    1-->
+    <string-array name="apparel_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Men’s Fashion</item>
+        <item>Women’s Fashion</item>
+        <item>Baby collection</item>
+    </string-array>
+
+    <!--    2-->
+    <string-array name="bag_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Shoes &amp; Accessories</item>
+        <item>Luggage, Bags &amp; Cases</item>
+    </string-array>
+
+    <!--    3-->
+    <string-array name="electronics_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Consumer Electronic</item>
+        <item>Computer &amp; Laptop</item>
+        <item>Computer Products</item>
+        <item>Security &amp; Protection</item>
+        <item>Home Appliance</item>
+    </string-array>
+
+    <!--    4-->
+    <string-array name="mobile_accessories_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Earphone &amp; Headphone</item>
+        <item>Pen Drive</item>
+        <item>Bluetooth Accessories</item>
+        <item>Battery and charger</item>
+        <item>Power Bank</item>
+        <item>Cable</item>
+        <item>Action Camera</item>
+        <item>Mobile Case</item>
+        <item>Others</item>
+    </string-array>
+
+    <!--    5-->
+    <string-array name="industrial_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Hardware Tools</item>
+        <item>Machinery</item>
+        <item>Machinery parts</item>
+        <item>Hand Tools</item>
+        <item>Cable Tools</item>
+        <item>Construction Equipment &amp; Tools</item>
+    </string-array>
+
+    <!--    6-->
+    <string-array name="electrical_equipment_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Home Supplies</item>
+        <item>Industrial Supplies</item>
+    </string-array>
+
+    <!--    7-->
+    <string-array name="auto_transportation_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Car Accessories</item>
+        <item>Bike Accessories</item>
+        <item>Bus Accessories</item>
+        <item>Truck Accessories</item>
+        <item>Other Accessories</item>
+    </string-array>
+
+    <!--    8-->
+    <string-array name="gift_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Sports &amp; Entertainment</item>
+        <item>Gifts &amp; Crafts</item>
+        <item>Toys &amp; Hobbies</item>
+    </string-array>
+
+    <!--    9-->
+    <string-array name="health_beauty_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Health &amp; Medical</item>
+        <item>Beauty &amp; Personal Care</item>
+    </string-array>
+
+    <!--    10-->
+    <string-array name="home_construction_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Real Estate Construction</item>
+        <item>Furniture</item>
+    </string-array>
+
+    <!--    11-->
+    <string-array name="lights_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>LED Interior Light</item>
+        <item>LED professional Light</item>
+        <item>LED Outdoor light</item>
+        <item>Lighting Decoration</item>
+    </string-array>
+
+    <!--    12-->
+    <string-array name="chemicals_rubber_plastics_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Chemicals</item>
+        <item>Rubber &amp; Plastics</item>
+    </string-array>
+
+    <!--    13-->
+    <string-array name="packaging_office_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Office &amp; School Supplies</item>
+        <item>Packaging &amp; Printing items</item>
+    </string-array>
+
+    <!--    14-->
+    <string-array name="medicine_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Tablets</item>
+        <item>Capsule</item>
+        <item>Syrup</item>
+        <item>Cream</item>
+        <item>Diabetes care</item>
+        <item>Sanitary pad</item>
+        <item>Birth control</item>
+        <item>Nutrition &amp; supplement</item>
+        <item>Health equipment</item>
+    </string-array>
+
+    <!--    15-->
+    <string-array name="fmcg_sub_category_array">
+        <item>Select Subcategory</item>
+        <item>Cooking items</item>
+        <item>Food items</item>
+        <item>Drinks</item>
+    </string-array>
+
+    <string name="taka_string">৳</string>
+
+</resources>
