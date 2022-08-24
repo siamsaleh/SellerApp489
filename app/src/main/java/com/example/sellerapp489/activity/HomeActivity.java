@@ -45,20 +45,6 @@ public class HomeActivity extends AppCompatActivity {
         btOrders = findViewById(R.id.btOrders);
         progressBar = findViewById(R.id.progressBar_pro);
 
-//        btOrders.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(HomeActivity.this, OrdersActivity.class));
-//            }
-//        });
-
-//        findViewById(R.id.btMessage).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(HomeActivity.this, ChatHomeActivity.class));
-//            }
-//        });
-
         findViewById(R.id.btAddProduct).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,32 +72,19 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
-//
-//        findViewById(R.id.btProfile).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-////                startActivity(new Intent(HomeActivity.this, AddProductActivity.class).putExtra("seller", (Parcelable) seller));
-//                if (seller != null){
-//                    startActivity(new Intent(HomeActivity.this, ProfileActivity.class).putExtra("name", seller.getStoreName()));
-//                }else {
-//                    Toast.makeText(HomeActivity.this, "Press Again", Toast.LENGTH_SHORT).show();
-//                }
-//
-//            }
-//        });
 
-//        findViewById(R.id.btBuyerList).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-////                startActivity(new Intent(HomeActivity.this, AddProductActivity.class).putExtra("seller", (Parcelable) seller));
-//                if (seller != null){
-//                    startActivity(new Intent(HomeActivity.this, BuyerListActivity.class).putExtra("name", seller.getStoreName()));
-//                }else {
-//                    Toast.makeText(HomeActivity.this, "Press Again", Toast.LENGTH_SHORT).show();
-//                }
-//
-//            }
-//        });
+        findViewById(R.id.btProfile).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                startActivity(new Intent(HomeActivity.this, AddProductActivity.class).putExtra("seller", (Parcelable) seller));
+                if (seller != null){
+                    startActivity(new Intent(HomeActivity.this, ProfileActivity.class).putExtra("name", seller.getStoreName()));
+                }else {
+                    Toast.makeText(HomeActivity.this, "Press Again", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
 
     }
 
