@@ -59,6 +59,13 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        btOrders.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, OrdersActivity.class));
+            }
+        });
+
         findViewById(R.id.btProduct).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
